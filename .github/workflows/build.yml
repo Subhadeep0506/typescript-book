@@ -30,5 +30,3 @@ jobs:
         with:
           name: typescript-book.pdf
           path: output/typescript-book-${{ env.SHA }}.pdf
-      - name: upload epub artifact
-        uses: actions/upload-artifact@v4
